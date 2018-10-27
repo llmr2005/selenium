@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Build 2.0">
+	<test name="Build 2.0 results">
+		<classes>
+			<class name="testNG.AnnotationSample1"></class>
+			<class name="testNG.AnnotationSample2"></class>
+			<class name="testNG.AnnotationSample3"></class>
+			<class name="testNG.FB_Login"></class>
+
+		</classes>
+	</test>
+</suite>

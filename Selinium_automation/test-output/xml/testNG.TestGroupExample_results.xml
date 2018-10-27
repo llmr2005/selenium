@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Single Test Group"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.026">
+  <properties />
+  
+  
+            <testcase name="firstSmokeTest" time="0.026" classname="testNG.TestGroupExample" />
+      
+</testsuite>

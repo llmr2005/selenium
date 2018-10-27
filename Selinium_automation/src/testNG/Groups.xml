@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestGroupSuite">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Single Test Group">
+
+		<!-- Add Groups in XML file -->
+		<groups>
+			<run>
+				<include name="Smoke" />
+				<include name="Regression" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="testNG.TestGroupExample" />
+			<class	name="testNG.MultipleTestGroupExample" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Single Test Group"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.015">
+  <properties />
+  
+  
+            <testcase name="firstTest" time="0.003" classname="testNG.MultipleTestGroupExample" />
+                <testcase name="thirdTest" time="0.005" classname="testNG.MultipleTestGroupExample" />
+                <testcase name="secondTest" time="0.005" classname="testNG.MultipleTestGroupExample" />
+                <testcase name="forthTest" time="0.002" classname="testNG.MultipleTestGroupExample" />
+      
+</testsuite>
